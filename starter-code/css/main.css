@@ -6,3 +6,70 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+  font-family: "Lucida Grande", sans-serif;
+}
+
+.spotifylogo {
+  width: 167px;
+  height: 50px;
+}
+
+.landing {
+  width: 1025px;
+  height: 683px;
+}
+
+.nav {
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.icons {
+  width: 100px;
+  height: 86px;
+}
+
+.greenheaders {
+  color: #00b172;
+}
+
+.Header1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.insidelanding1 {
+  color: white;
+  font-size: 64px;
+  font-weight: normal;
+}
+
+.insidelanding2 {
+  color: white;
+}
+
+.imagegreen {
+  width: 996px;
+  height: 605px;
+}
+
+.whitetext {
+  color: white;
+}
+
+.kanyewest {
+  width: 259px;
+  height: 460px;
+}
+
+.whiteicon {
+  width: 100px;
+  height: 100px;
+}
+
+.lastsection {
+  background-color: #00b172;
+}
