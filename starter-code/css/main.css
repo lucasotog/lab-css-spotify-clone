@@ -8,11 +8,33 @@ White: #FFF
 */
 body {
   font-family: "Lucida Grande", sans-serif;
+  margin: 0;
 }
 
 .spotifylogo {
   width: 167px;
   height: 50px;
+  margin-left: 30px;
+}
+
+.navheader {
+  margin-top: 13px;
+  margin-bottom: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Links {
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-left: 14px;
 }
 
 .landing {
@@ -20,14 +42,28 @@ body {
   height: 683px;
 }
 
-.nav {
-  font-family: sans-serif;
-  text-align: right;
-  font-size: 18px;
-  font-weight: 100;
+.landingclass {
+  padding: 30px;
+  height: 683px;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.icons {
+.devices-icon {
+  width: 100px;
+  height: 86px;
+}
+
+.music-icon {
+  width: 100px;
+  height: 86px;
+}
+
+.hd-icon {
   width: 100px;
   height: 86px;
 }
@@ -37,39 +73,88 @@ body {
 }
 
 .Header1 {
+  border-bottom: 3px solid #00b172;
+  display: inline-flex;
   text-align: center;
   font-size: 30px;
+  margin-top: 0;
 }
 
 .insidelanding1 {
+  display: flex;
+  text-align: center;
   color: white;
   font-size: 64px;
   font-weight: normal;
 }
 
 .insidelanding2 {
+  font-weight: 1;
   color: white;
+  text-align: center;
 }
 
-.imagegreen {
-  width: 996px;
-  height: 605px;
+.inside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.whitetext {
+.whitetext1 {
   color: white;
+  text-align: left;
+  width: 30%;
+}
+
+.whitetext2 {
+  color: white;
+  text-align: left;
+  width: 35%;
+  font-weight: lighter;
 }
 
 .kanyewest {
   width: 259px;
   height: 460px;
+  align-items: flex-end;
 }
 
-.whiteicon {
-  width: 100px;
-  height: 100px;
+.yeezy {
+  justify-content: space-between;
+  color: white;
+  text-align: left;
+  width: 100%;
 }
 
 .lastsection {
   background-color: #00b172;
+  padding: 47px 75px 60px;
+  margin-bottom: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  background-image: url("../images/spotify-icon-white.png");
+  background-repeat: no-repeat;
+  background-size: 100px 100px;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+}
+
+.texts {
+  text-align: center;
+}
+
+.whatsnew {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 30px 90px;
 }
